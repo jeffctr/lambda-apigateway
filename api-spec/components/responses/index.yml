@@ -1,0 +1,13 @@
+Unauthorized:
+  description: Unauthorized
+
+SUCCESS_EMPTY:
+  description: OK
+  headers:
+    Access-Control-Allow-Origin:
+      schema:
+        type: "string"
+  content:
+    application/json:
+      schema:
+        $ref: "#/components/schemas/Empty"

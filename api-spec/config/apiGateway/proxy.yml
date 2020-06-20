@@ -1,0 +1,11 @@
+credentials: ${role_arn}
+httpMethod: "POST"
+passthroughBehavior: "when_no_match"
+type: "aws_proxy"
+contentHandling: "CONVERT_TO_TEXT"
+uri: ${uri_arn}
+responses:
+  default:
+    statusCode: "200"
+    responseParameters:
+      method.response.header.Access-Control-Allow-Origin: "'*'"

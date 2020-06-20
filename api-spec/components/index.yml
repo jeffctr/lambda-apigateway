@@ -1,0 +1,4 @@
+responses:
+  $ref: ./responses/index.yml
+schemas:
+  $ref: ./schemas/index.yml

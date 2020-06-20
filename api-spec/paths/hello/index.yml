@@ -1,0 +1,20 @@
+parameters:
+  - name: name
+    in: path
+    description: Any name that you want do add
+    required: true
+    schema:
+      type: string
+
+options:
+  $ref: ./../../config/methods/options.yml
+
+get:
+  x-amazon-apigateway-integration:
+    $ref: ./../../config/apiGateway/proxy.yml
+  summary: Return the hello world
+  responses:
+    '200':
+      $ref: '#/components/responses/SUCCESS_EMPTY'
+    '401':
+      $ref: '#/components/responses/Unauthorized'

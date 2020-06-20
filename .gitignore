@@ -1,0 +1,13 @@
+.terraform
+*.zip
+*.tar.gz
+lambda/vendors/**
+.env
+lambda/*/helpers
+node_modules
+docker
+adminer.php
+*.sql
+__pycache__
+api-spec/output.json
+.idea
