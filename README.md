@@ -1,4 +1,4 @@
-#Deploying Lambad Function, API Gateway with Terraform
+# Deploying Lambad Function, API Gateway with Terraform
 
 This is a very basic tutorial deploying your **lambda function** and firing it with **API Gateway**. The main Idea of this tutorial is to teach you how to to trigger your function through an API. <br/>
 Perhaps you are wondering why use **API Gateway** to call my function if I can use task to do it. However, If you want to create a [Restful-API](https://restfulapi.net/) you will need to find a way how to trigger your function or even for a basic task that you want to run for your personal propose you can do it fast and easy. 
